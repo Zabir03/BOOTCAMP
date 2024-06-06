@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+   
+    
+}
+h1{
+    color: blue;
+    background-color: aqua;
+    text-decoration: underline;
+    
+}
+.div1{
+    color: blueviolet;
+    background-color: aquamarine;
+    border: 2px solid rebeccapurple;
+}
+a[href="https://www.facebook.com"]{
+    font-size: 30px;
+    text-decoration: none;
+}

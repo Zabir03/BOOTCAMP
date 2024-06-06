@@ -1,0 +1,13 @@
+#parent{
+    width: 80vw;
+    border: 5px;
+    height: ;
+    background-color: antiquewhite;
+    margin: 40px;
+    display: flex;
+}
+div{
+    width: 200px;
+    height: 200px;
+    
+}
