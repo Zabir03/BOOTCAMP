@@ -9,6 +9,7 @@
     border: 2px solid red;
     justify-content: center;
     justify-content: space-between;
+    gap: 10px;
 
 }
 div{
