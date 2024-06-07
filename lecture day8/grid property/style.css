@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#parent{
+    width: 90vw;
+    height: 90vh;
+    background-color: aquamarine;
+    border: 5px solid black;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 200px 300px;
+    grid-template-rows: 50px 100px 80px;
+    /* grid-auto-flow: row;
+    grid-auto-rows: auto; */
+    grid-auto-flow: column;
+    grid-auto-columns: 80px;
+
+}
+.child{
+    background-color: rgb(28, 42, 236);
+    border: 1px solid black;
+}
+#zabir{
+    background-color: azure;
+    /* grid-column: span 2; */
+    /* grid-row: span 2;
+    grid-column: span 2; */
+    grid-row-start: 5;
+
+}
